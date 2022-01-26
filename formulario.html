@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>Contacto</title>
+        <!--<link rel="stylesheet" href="estilo.css">-->
+    </head>
+    <body>
+        <header>
+            <div class="nav">
+                  <ul>
+                      <li><a href="index.html">index</a></li>
+                      <li><a href="formulario.html">formulario</a></li>
+                  </ul>
+              </div>
+              <br>
+             <h1 class="nombre">Contacto</h1>          
+        </header>
+        <main>
+            <form action="#" method="get">
+                <label for="nombre"><input id="nombre" type="text" placeholder="Nombre" required><br></label>
+                <label for="correo"><input id="correo" type="mail" placeholder="Correo" required><br></label>
+                <label for="contraseña"><input id="contraseña" type="password" placeholder="Contraseña" required><br></label>
+                <label for="mujer"><input id="mujer" type="radio" name="mujer-hombre" value="mujer" checked>Mujer</label>
+                <label for="hombre"><input id="hombre" type="radio" name="mujer-hombre" value="hombre">Hombre</label><br>
+                <label for="comentario"><textarea id="comentario" placeholder="Comentario" required></textarea><br>
+                <label><p class="ciudad">Ciudad:</p>
+                    <select id="ciudad" required>
+                        <option value="guadalajara">Guadalajara</option>
+                        <option value="zapopan">Zapopan</option>
+                        <option value="tonala">Tonalá</option>
+                        <option value="otra">Otra</option>
+                    </select>
+                    <br>
+                </label>
+                <label class="check" for="check"><input id="check" type="checkbox"> Me interesa contratarte</label><br>
+                
+                <button type="submit">Submit</button>
+            </form>
+        </main>
+    </body>
+</html>
