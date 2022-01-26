@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(45, 255, 220);
+    max-width: 1000px;
+    margin: auto;
+  }
+
+table, th, td {
+    border: 1px solid rgb(95, 0, 104);
+    text-align: center;
+    background-color:rgb(207, 99, 250);
+}
+
+h1{
+    color:rgb(231, 0, 200);
+}
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+}
+
+div {
+    border: 1px solid rgb(0, 225, 255);
+    background-color:rgb(213, 106, 255);
+    margin: 20px;
+}
